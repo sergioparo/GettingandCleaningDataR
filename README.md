@@ -16,14 +16,14 @@ Then the script calls the 'prepare_data_set' function twice, one for test and ot
 After that, all the 'test_train_dataset' features are summarized by activity and subject using mean function. The result dataframe is store into "test_train_dataset_grp.txt" file.
 
 ## Needed file structure:
-> .\\UCI HAR Dataset\\activity_labels.txt
-> .\\UCI HAR Dataset\\features.txt
-> .\\UCI HAR Dataset\\test\\subject_test.txt
-> .\\UCI HAR Dataset\\test\\X_test.txt
-> .\\UCI HAR Dataset\\test\\y_test.txt
-> .\\UCI HAR Dataset\\train\\subject_train.txt
-> .\\UCI HAR Dataset\\train\\X_train.txt
-> .\\UCI HAR Dataset\\train\\y_train.txt
+- UCI HAR Dataset\\activity_labels.txt
+- UCI HAR Dataset\\features.txt
+- UCI HAR Dataset\\test\\subject_test.txt
+- UCI HAR Dataset\\test\\X_test.txt
+- UCI HAR Dataset\\test\\y_test.txt
+- UCI HAR Dataset\\train\\subject_train.txt
+- UCI HAR Dataset\\train\\X_train.txt
+- UCI HAR Dataset\\train\\y_train.txt
 
 ## Features
 Check features_info.txt for the full list of dataframes features.
