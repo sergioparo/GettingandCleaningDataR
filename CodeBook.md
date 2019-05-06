@@ -1,4 +1,4 @@
-#H Code Book for Getting and Cleaning Data with R project
+# Code Book for Getting and Cleaning Data with R project
 
 The script has the function 'prepare_data_set' that will prepare each dataset (test and train), receiving the path to the dataset, path to the file that relates each record from dataset to subject and path the file that relates each record from dataset to activity codes (1, 2, 3, 4, 5, 6). The function uses the file 'features.txt' to name the columns of the dataset, the 'activity_labels.txt' to translate the activity codes to activity description.
 
