@@ -25,9 +25,3 @@ Needed file structure:
 .\UCI HAR Dataset\train\subject_train.txt
 .\UCI HAR Dataset\train\X_train.txt
 .\UCI HAR Dataset\train\y_train.txt
-
-
-
-
-
-
