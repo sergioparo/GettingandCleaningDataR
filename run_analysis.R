@@ -40,3 +40,5 @@ test_train_dataset <- rbind(prepare_data_set (".\\UCI HAR Dataset\\test\\X_test.
 library(dplyr)
 
 test_train_dataset_grp <- test_train_dataset %>% group_by(activity, subject) %>% summarise_all(list(~mean))
+
+write.table(test_train_dataset_grp, file = "test_train_dataset_grp.txt", row.names = FALSE)
